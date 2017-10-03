@@ -31,9 +31,9 @@ export default {
           this.$router.numCartaoValue = numCartao
           console.log("this.$router.numCartaoValue"+this.$router.numCartaoValue)
         },
-    _submit (e, inputEl, totalValueCents) {
+    _submit (e, inputEl, numCartaoValue) {
           e.preventDefault()
-          this.$router.push('/payment1')
+          this.$router.push('/saldo')
       }
   }
 }

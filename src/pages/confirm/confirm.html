@@ -1,0 +1,60 @@
+<div class="other">
+  <mb-navbar mb-title="Recarregar"></mb-navbar>
+
+  <mb-image class="logo" mb-src="assets/logo.png"></mb-image>
+  <label class="text4">Recarga Realizada</label>
+    <mb-button ref="inputBotao" class="confirm">Comprovante</mb-button>
+    <mb-button ref="cancel-everything" class="cancel">Cancelar</mb-button>
+
+  <mb-dialog ref="cancel" mb-title="Cancelar" mb-negative-action="Voltar" mb-positive-action="Sim">Deseja cancelar a operação?</mb-dialog>
+
+  <mb-print-area ref="print-area">
+    <div class="inicioComprovante">
+      <mb-image class="imglogo" mb-src="./assets/logo.png"></mb-image>
+<!--
+      <div class="nomeFantasia">
+
+      </div> -->
+
+        <div class="endereco">
+          <p></p>
+          <p>Dr. Consulta<br/>
+            Endereço: R Capote Valente, 39 ANDAR 2 <br/>
+            Sao Paulo - SP <br/>
+             CNPJ: 14.245.016/0001-79
+          </p>
+        </div>
+          <div class="dataEHora">
+          <p><mb-input ref="inputDate"></mb-input></p>
+          </div>
+
+            <div class="msgFinal">
+              <p>
+              Caro paciente, seu saldo foi atualizado.<br/>
+              Agora você pode agendar online e comparecer consultas no Centro Médico mais próximo! <br/><br/>
+              Acesse nosso site: https://www.drconsulta.com.br</mb-collection-item>
+              </p>
+            </div>
+                    <table  class="valorComprovante">
+                    <tr>
+                      <td>Número Paciente:</td>
+                      <td><mb-input ref="numCartaoValue"></mb-input></td>
+                    </tr>
+                    <tr>
+                      <td>VALOR TOTAL:</td>
+                      <td><mb-input ref="inputValueTotal"></mb-input></td>
+                    </tr>
+                    <tr>
+                      <td>SALDO ATUAL:</td>
+                      <td><mb-input ref="inputSaldo"></td>
+                    </tr>
+                  </table>
+              </div>
+              <div class="FimComprovante">
+                      <p>Obrigado!
+                      </p>
+              </div>
+                </mb-print-area>
+
+
+</div>

@@ -1,15 +1,21 @@
 <div class="welcome">
-  <mb-navbar mb-title="Welcome"></mb-navbar>
-  
-  <h5 class="message">This is your mamba project</h5>
+  <mb-navbar>
+    <mb-icon ref="link-back" class="mb-icon-chevron-left"></mb-icon>
+    <span class="mb-navbar-title">Bem Vindo!</span>
+  </mb-navbar>
 
-  <mb-image mb-src="assets/logo.svg"></mb-image>
+  <!-- <mb-navbar mb-title="Bem Vindo!"></mb-navbar> -->
 
-  <my-component></my-component>
+  <mb-image class="logo" mb-src="assets/logo.png"></mb-image>
 
-  <mb-collection>
-    <a href="#/intro">
-      <mb-collection-item>Go to the next page</mb-collection-item>
-    </a>
+
+  <mb-collection >
+    <mb-collection-item  style="text-align:center" mb-right-icon="" mb-right-icon="">
+    Bem vindo ao sistema de recarga Dr. Consulta. Precione a tecla abaixo para começar.</mb-collection-item>
   </mb-collection>
+
+  <a href="#/intro">
+    <mb-button class="button1">Iniciar</mb-button>
+  </a>
+
 </div>

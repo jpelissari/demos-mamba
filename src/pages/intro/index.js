@@ -10,12 +10,5 @@ export default {
         scale_to_paper_width: true
       }
     }
-  },
-  onCreate () {
-    this.$refs['print'].el.onclick = _ => {
-      this.$refs['print-area'].print(this.printObject, err => {
-        console.log(err)
-      })
-    }
   }
 }

@@ -1,0 +1,52 @@
+.logo {
+  padding: 10px 0 10px;
+  width: 170px;
+  margin-left: 30px;
+}
+
+.text4 {
+  padding: 0 0 20px;
+  margin-left: 60px;
+
+}
+
+.confirm{
+  margin: 20px 0 0 40px;
+}
+
+.cancel{
+  margin: 20px 0 0 40px;
+  padding: 0 50px 0 50px;
+}
+
+.mb-input {
+    background: transparent;
+    border: none;
+  }
+
+.imglogo{
+  margin-left: 40px;
+  width: 300px;
+  }
+
+  .msgFinal{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    p{
+      font-size: 17px;
+      text-align: center;
+    }
+  }
+
+  .FimComprovante{
+    border-top-style: solid;
+    p{
+      text-align: center;
+    }
+  }
+
+.valorComprovante{
+  // border-top-style: solid;
+  font-size: 20px;
+  width: 165%;
+}

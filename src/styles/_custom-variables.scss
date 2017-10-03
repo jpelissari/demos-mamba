@@ -9,5 +9,10 @@ $mb-icons-path: '~mamba-websdk/src/icons/';
 
 // Colors
 // You can change the colors of the components just changing the color variables, for example:
-// $primary-color:      $blue-grey;
-// $primary-color-dark: $blue-grey-dark;
+$primary-color: #1164A6;
+$primary-color-dark: #0E303F;
+
+//input
+
+$mb-input-container-vertical-padding: 0px;
+$mb-input-container-horizontal-padding: 20px;
